@@ -1,0 +1,35 @@
+.nav-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items li a {
+    padding: 0 1rem;
+
+}
+
+.nav-items li a:hover {
+    color: var(--secondary-color);
+}
+
+.nav-items ul {
+    padding: 0;
+}
+
+.nav-items .dropdown {
+    display: none;
+}
+
+.nav-items li:hover .dropdown {
+    display: block;
+}
